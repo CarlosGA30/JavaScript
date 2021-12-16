@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Diseño de algoritmos 2</title>
+  
+</head>
+<body>
+    <img class="item_image" src="robo.jpg" onerror="reemplaza_imagen(this);"/>
+    <img class="item_image" src="robot.jpg"  />
+    <!--<script src="01-repaso.js"></script>--
+    <script src="ejercicioFunciones.js"></script><  -->
+    <script>
+        function reemplaza_imagen(imagen) {
+            imagen.onerror = "";
+            imagen.src = "vacio.jpg";
+            return true;
+        }
+    </script>
+    <script src="02-arreglos.js"></script>
+</body>
+</html>
